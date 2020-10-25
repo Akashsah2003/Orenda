@@ -1,0 +1,184 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Videos</title>
+        <style>
+            li{
+                display: inline-block;
+                margin-left: 30px;
+            }
+            #disc{
+                color: #86dae9;
+            }
+            .nav-bar{
+                background-color: #299adb;
+                position: absolute;
+                width: 100%;
+                z-index: auto;
+                margin: 0 auto 0;
+                padding-top: 0px;
+            }
+            html{
+                margin: 0px;
+                padding: 0px 0px 50px 0px;
+                color: #299adb;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 18px;
+            }
+            body{
+                background-color: white;
+            }
+            p{
+                text-align: center;
+            }
+            .heading{
+                padding-top: 70px;
+                text-align: center;
+            }
+            .intro{
+                padding-top: 85px;
+                padding-left: 300px;
+                background-color: #ffffff;
+                margin-bottom: 50px;
+            }
+            .intro a:link{
+                text-decoration: none;
+  color:  #299adb;
+            }
+            .intro a:visited{
+                text-decoration: none;
+  color: #299adb;
+            }
+            .intro a:hover{
+                text-decoration: underline;
+  color: #eb85da;
+            }
+            .intro a:active{
+                text-decoration: underline;
+  color: #eb85da;
+            }
+            .upload{
+                width: fit-content;
+                text-align: justify;
+
+            }
+            .edu{
+                width: fit-content;
+                text-align: justify;
+                padding-left: 200px;
+
+            }
+            .browse{
+                width: fit-content;
+                text-align: justify;
+                padding-left: 200px;
+                padding-right: 85px;
+
+            }
+            .search{
+                width: fit-content;
+                text-align: justify;
+
+            }
+            .container{
+                background-color: rgb(255, 255, 255);
+                padding: 20px 20px ;
+                margin: 30px 50px ;
+                border-radius: 35px;
+                border-color: rgb(160, 190, 255);
+                border-width: 20px;
+                border-style: solid;
+                height: 250px;
+            }
+            a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  color: #eb85da;
+}
+a:active {
+  text-decoration: underline;
+  color: #eb85da;
+}
+            .first{
+              display: block;
+              width:50px;
+              height:50px;
+              padding-top: 65px;
+              padding-left: 80px;
+            }
+            @media(max-width: 1000px) {
+                .heading{
+      padding-top: 30px;
+  }
+}
+h4{
+    text-align: center;
+}
+.one{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.eduvid{
+    width: 400px;
+    height: 250px;
+}
+        </style>
+    </head>
+    <div class="nav-bar" style="display: block; ">
+        <nav>
+        <ul class="top">
+            <li>
+              <a style="padding-left: 60px;" href="./Home.html">Home</a>
+            </li>
+            <li>
+              <a style="padding-left: 140px;" href="./Videos.html">Videos</a>
+            </li>
+            <li>
+                <a style="padding-left: 220px;" href="./index.html">Discussion Forum</a>
+            </li>
+            <li>
+                <a style="padding-left: 300px;" href="./Contact.html">Contact Us</a>
+            </li>
+        </ul>
+        </nav>
+    </div>
+    <body style="margin: 0%;">
+        <img src="https://eventchat50.eventornado.com/file-upload/GwaB5qtkTxPCXaTQK/Orenda%20Logo.png" alt="HELP" class="first"  style="float: left; position: absolute;">
+      <div class="intro">
+          <a class="upload" href="error.404" target="_blank"> Upload Your Video</a>
+          <a class="edu" href="error.404" target="_blank"> Educational</a>
+          <a class="browse" href="error.404" target="_blank"> Browse </a>
+          <input type="search" class="search" placeholder="Search in Orenda...">
+        </div>
+        <div class="container">
+                <section class="one">
+                   <div class="pre" style="float: left;">
+                     <h3>Educational Videos</h3>
+                     <p>Our purpose is to create a simple yet attractive series of videos which <br>will explain different and relevant topics that youth might not learn at school<br> such as mental health, sexual education, world news, likewise regular subjects<br> like maths, english and also different lessons about various languages</p>
+                   </div>
+                   <div class="post" style="float: right;" id="vids">
+                    <video controls class="eduvid"><source src="./Education.mp4"></video>
+                   </div>
+                   </section>
+        </div>
+        <br>
+        <div class="container" >
+            <section class="one">
+               <div class="pre" style="float: left;">
+                 <h3>We Are Here To Help!</h3>
+                 <p>In the meantime,all of us have faced difficult times and felt empty and stressed.<br> And all of us is trying to overcome this disease one way or the other.<br> How about we face it together? We've made a platform for you to <br> cope with those problems. Sure, you're not alone and because of that<br> we've also developed a chat room to talk and share with other people who can help.</p>
+               </div>
+               <div class="post" style="float: right;">
+               <iframe class="eduvid" src="https://www.youtube.com/embed/Tf8yIKKq6vI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></video>
+               </div>
+               </section>
+        </div>
+ </body>
+</html>
